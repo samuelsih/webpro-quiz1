@@ -4,9 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="food.css">
     <title>Food</title>
 </head>
 <body>
-    Food
+    <div class="s-layout">
+        <!-- Sidebar -->
+        <div class="s-layout__sidebar">
+          <a class="s-sidebar__trigger" href="#0">
+             <i class="fa fa-bars"></i>
+          </a>
+        
+          <nav class="s-sidebar__nav">
+             <ul>
+                <li>
+                   <a class="s-sidebar__nav-link" href="../profile/">
+                     <i class="fa fa-user"></i><em>My Profile</em>
+                   </a>
+                </li>
+                <li>
+                   <a class="s-sidebar__nav-link" href="../hometown/">
+                      <i class="fa fa-house"></i><em>Hometown</em>
+                   </a>
+                </li>
+                <li>
+                    <a class="s-sidebar__nav-link" href="../food/">
+                       <i class="fa fa-bowl-food"></i><em>Food</em>
+                    </a>
+                </li>
+                <li>
+                    <a class="s-sidebar__nav-link" href="../tourist/">
+                       <i class="fa fa-location"></i><em>Tourist</em>
+                    </a>
+                </li>
+             </ul>
+          </nav>
+        </div>
+        
+        <!-- Content -->
+        <main class="s-layout__content">
+            <div class="begin">
+                <h1 class="title">Food</h1>
+                <h3 class="name">My Personal Top 3 Food From Bandung</h3>
+            </div>
+
+            <div class="wrapper">
+                <div class="box-content">
+                    <h6 class="name">1. Seblak</h5>
+                    <img src="../../assets/seblak.jpg" alt="Seblak">
+                    <p class="description">Known for its fiery red color, Seblak is a light meal made of crackers, or kerupuk, with a spicy and savory sauce. Rather than frying them, the raw crackers are cooked into the sauce, resulting in a unique, chewy texture. Choose any type of crackers you prefer and personalize it as much as you want with the toppings. You can also add meatballs and sausages so you can enjoy it as a hearty evening snack.
+                    </p>
+                </div>
+                <br>
+                <div class="box-content">
+                    <h6 class="name">2. Peuyeum</h5>
+                    <img src="../../assets/peuyeum.jpg" alt="Peuyeum">
+                    <p class="description">Peuyeum is a food from Bandung that offers a sensation of taste that is certainly unique and different from the culinary preparations that exist elsewhere. Peuyeum is tapai made from cassava fermented by the activity of Saccharomyces cerevisiae yeast. The process of making peuyeum is also quite simple, starting with peeling and removing cassava skin, washing cassava tubers which are then boiled, cassava tubers are cooled and then added yeast and left overnight to enter the fermentation / fermentation stage.
+                    </p>
+                </div>
+                <br>
+                <div class="box-content">
+                    <h6 class="name">3. Bandros</h5>
+                    <img src="../../assets/bandros.jpg" alt="Bandros">
+                    <p class="description">One of the most famous traditional snacks in Bandung is bandros. This cake from rice flour and coconut milk is shaped like pukis with a savory taste. There is a sprinkling of granulated sugar to add flavor. The taste is savory and salty which is the hallmark of this Bandung specialty.
+                    </p>
+                </div>
+            </div>
+        </main>
+        
+        </div>
 </body>
 </html>
