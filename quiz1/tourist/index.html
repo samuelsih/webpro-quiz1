@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tourist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="tourist.css">
+    <title>Food</title>
 </head>
 <body>
-    Tourist
+    <div class="s-layout">
+        <!-- Sidebar -->
+        <div class="s-layout__sidebar">
+          <a class="s-sidebar__trigger" href="#0">
+             <i class="fa fa-bars"></i>
+          </a>
+        
+          <nav class="s-sidebar__nav">
+             <ul>
+                <li>
+                   <a class="s-sidebar__nav-link" href="../profile/">
+                     <i class="fa fa-user"></i><em>My Profile</em>
+                   </a>
+                </li>
+                <li>
+                   <a class="s-sidebar__nav-link" href="../hometown/">
+                      <i class="fa fa-house"></i><em>Hometown</em>
+                   </a>
+                </li>
+                <li>
+                    <a class="s-sidebar__nav-link" href="../food/">
+                       <i class="fa fa-bowl-food"></i><em>Food</em>
+                    </a>
+                </li>
+                <li>
+                    <a class="s-sidebar__nav-link" href="../tourist/">
+                       <i class="fa fa-location"></i><em>Tourist</em>
+                    </a>
+                </li>
+             </ul>
+          </nav>
+        </div>
+        
+        <!-- Content -->
+        <main class="s-layout__content">
+            <div class="begin">
+                <h1 class="title">Tourist</h1>
+                <h3 class="name">My Recommendation</h3>
+            </div>
+
+            <div class="wrapper">
+                <div class="box-content">
+                    <h6 class="name">1. Paris van Java</h5>
+                    <img src="../../assets/pvj.jpg" alt="Paris van Java">
+                    <p class="description">One of a kind shopping centre in Asia which blends mediterranian architecture and lush greenery into a unique and memorable experience for all ages. Revel in an immersive shopping spree with world-renowned brands and creative entrepreneurs. Savour the tastes of the world while dining under the stars. Relish the beauty of nature in Paradiso and immortalize your visit enveloped by luscious flowers and exotic ambiance.
+                    </p>
+                </div>
+                <br>
+                <div class="box-content">
+                    <h6 class="name">2. Tangkuban Parahu</h5>
+                    <img src="../../assets/tangkuban-parahu.jpg" alt="Tangkuban Parahu">
+                    <p class="description">Tangkuban Parahu is a stratovolcano 30 km north of the city of Bandung, the provincial capital of: West Java, Indonesia. It is a popular tourist attraction where tourists hike or ride to the edge of the crater to view the hot water springs and boiling mud up close, and buy eggs cooked on the hot surface.Together with Mount Burangrang and Bukit Tunggul, it is a remnant of the ancient Mount Sunda after the plinian eruption caused the Caldera to collapse.
+                    </p>
+                </div>
+                <br>
+                <div class="box-content">
+                    <h6 class="name">3. Dago</h5>
+                    <img src="../../assets/dago.jpg" alt="Dago">
+                    <p class="description">Dago is an area in Bandung, West Java, Indonesia. It covers Jalan H. Juanda (H. Juanda Street) and the surrounding area. The lower (southern) Dago area near Jalan Merdeka is one of the trendy areas of Bandung, with shops, shopping malls, cafes, boutiques, and many restaurants and entertainment centers. This is a place where most of the iconic Bandung exists. This place is so huge so enjoy yourselves.
+                    </p>
+                </div>
+                <div class="end"></div>
+            </div>
+        </main>
+        
+        </div>
 </body>
 </html>
