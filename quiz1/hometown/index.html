@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="hometown.css">
     <title>Hometown</title>
 </head>
 <body>
-    Hometown
+    <div class="s-layout">
+        <!-- Sidebar -->
+        <div class="s-layout__sidebar">
+          <a class="s-sidebar__trigger" href="#0">
+             <i class="fa fa-bars"></i>
+          </a>
+        
+          <nav class="s-sidebar__nav">
+             <ul>
+                <li>
+                   <a class="s-sidebar__nav-link" href="../profile/">
+                     <i class="fa fa-user"></i><em>My Profile</em>
+                   </a>
+                </li>
+                <li>
+                   <a class="s-sidebar__nav-link" href="../hometown/">
+                      <i class="fa fa-house"></i><em>Hometown</em>
+                   </a>
+                </li>
+                <li>
+                    <a class="s-sidebar__nav-link" href="../food/">
+                       <i class="fa fa-bowl-food"></i><em>Food</em>
+                    </a>
+                </li>
+                <li>
+                    <a class="s-sidebar__nav-link" href="../tourist/">
+                       <i class="fa fa-location"></i><em>Tourist</em>
+                    </a>
+                </li>
+             </ul>
+          </nav>
+        </div>
+        
+        <!-- Content -->
+        <main class="s-layout__content">
+            <div class="begin">
+                <h1 class="title">Hometown</h1>
+                <h3 class="name">Bandung</h3>
+            </div>
+
+            <div class="wrapper">
+                <img src="../../assets/bandung.jpg" alt="Bandung Photo">
+                <p class="content">Bandung city is the capital city of West Java province. This city was known in ancient times as Parijs van Java (Dutch) or "Paris of Java". Because it is located in the highlands, Bandung is known as a place with cool air. This makes Bandung as a tourist destination.</p>
+                <br>
+                <p class="content">The geographical location of Bandung makes it a big city in a mountainous area that is comfortable, has cool air, complete with beautiful natural scenery thanks to the highlands and mountains around it. In the mountainous area around Bandung lies a green carpet of tea plantations that cover almost every foot of the mountain. The beauty of the city, its climate, the beauty and hospitality of the Priangan fathers, as well as the high creativity of its inhabitants, make Bandung have its own image and tradition. Therefore, it is not wrong if Berhiber(Bersih, Hijau, Berbunga) aka Clean, Green, Flowering became the slogan for urban planning which in the Dutch colonial era was once nicknamed Mooi Bandung (Bandung Indah).</p>
+                <cite><a href="http://www.indotravelers.com/bandung/about_bdg.html">You can see more information from this site.</a></cite>
+            </div>
+        </main>
+        
+        </div>
 </body>
 </html>
